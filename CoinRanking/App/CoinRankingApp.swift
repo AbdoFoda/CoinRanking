@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct CoinRankingApp: App {
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CoinsListHostingView()
         }
     }
 }

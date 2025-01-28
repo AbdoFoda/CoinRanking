@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D0BC19032D49626F0046E17F /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = D0BC19022D49626F0046E17F /* Kingfisher */; };
+		D0BC191D2D496FDA0046E17F /* entitelment.xml in Resources */ = {isa = PBXBuildFile; fileRef = D0BC191C2D496FD10046E17F /* entitelment.xml */; };
+		D0BC191F2D4971040046E17F /* info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0BC191E2D4970FE0046E17F /* info.plist */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		D0BC18A32D4809070046E17F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +33,8 @@
 		D0BC18922D4809050046E17F /* CoinRanking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoinRanking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0BC18A22D4809070046E17F /* CoinRankingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinRankingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0BC18AC2D4809070046E17F /* CoinRankingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinRankingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0BC191C2D496FD10046E17F /* entitelment.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = entitelment.xml; sourceTree = "<group>"; };
+		D0BC191E2D4970FE0046E17F /* info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0BC19032D49626F0046E17F /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +84,8 @@
 		D0BC18892D4809050046E17F = {
 			isa = PBXGroup;
 			children = (
+				D0BC191E2D4970FE0046E17F /* info.plist */,
+				D0BC191C2D496FD10046E17F /* entitelment.xml */,
 				D0BC18942D4809050046E17F /* CoinRanking */,
 				D0BC18A52D4809070046E17F /* CoinRankingTests */,
 				D0BC18AF2D4809070046E17F /* CoinRankingUITests */,
@@ -112,6 +123,7 @@
 			);
 			name = CoinRanking;
 			packageProductDependencies = (
+				D0BC19022D49626F0046E17F /* Kingfisher */,
 			);
 			productName = CoinRanking;
 			productReference = D0BC18922D4809050046E17F /* CoinRanking.app */;
@@ -195,6 +207,9 @@
 			);
 			mainGroup = D0BC18892D4809050046E17F;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D0BC19012D49626F0046E17F /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = D0BC18932D4809050046E17F /* Products */;
 			projectDirPath = "";
@@ -212,6 +227,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0BC191F2D4971040046E17F /* info.plist in Resources */,
+				D0BC191D2D496FDA0046E17F /* entitelment.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,6 +575,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D0BC19012D49626F0046E17F /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.1.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D0BC19022D49626F0046E17F /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D0BC19012D49626F0046E17F /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D0BC188A2D4809050046E17F /* Project object */;
 }

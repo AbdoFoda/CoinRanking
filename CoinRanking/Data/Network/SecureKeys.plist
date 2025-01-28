@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>ENCRYPTED_API_KEY</key>
+    <string>ROEulvnsm3PxH3bxGIXfHwZ6dmPVKxIQEq+LvB4VfUGE4BQNJmtr7Udu7+AxPfpBOeAJgRssutfl0GVyTGYMFoNLVRboZtmkISXsApEgjt9o/qhDkWhV</string>
+    <!-- The Encryption key should be stored on CI/CD or backend service but no here (i.e: just for demo) -->
+    <key>Encryption_KEY</key>
+    <string>/p6Qb7VcNR6Pi2J4+qaRfKxZ9SHdntqVmC45iZ6c300=</string>
+</dict>
+</plist>

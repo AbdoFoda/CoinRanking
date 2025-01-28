@@ -1,0 +1,6 @@
+<key>com.apple.developer.web-browser-engine.rendering</key>
+<true/>
+<key>com.apple.developer.web-browser-engine.networking</key>
+<true/>
+<key>com.apple.developer.web-browser-engine.webcontent</key>
+<true/>
